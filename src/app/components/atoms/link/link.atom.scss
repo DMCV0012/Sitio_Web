@@ -1,0 +1,24 @@
+@import '../../../../styles/_layout.scss';
+@import '../../../../styles/_variables.scss';
+.link {
+  color: #007bff;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.link-atom {
+  color: $text-color !important;
+  font-family: $font-family-base;
+  font-size: $font-size-base;
+  margin-left: $spacer;
+  margin-right: $spacer;
+  text-decoration: none;
+  transition: $transition-base;
+  cursor: pointer;
+
+  &.active,
+  &:hover {
+    color: $primary-color !important;
+    text-decoration: underline;
+  }
+}

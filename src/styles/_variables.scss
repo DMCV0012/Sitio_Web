@@ -1,0 +1,75 @@
+// Archivo de variables globales SCSS
+
+// Colores
+$primary-color: #007bff;
+$secondary-color: #6c757d;
+$success-color: #28a745;
+$danger-color: #dc3545;
+$warning-color: #ffc107;
+$info-color: #17a2b8;
+$light-color: #f8f9fa;
+$dark-color: #343a40;
+$background-color: #181a1b;
+$text-color: #eaeaea;
+$muted-color: #6c757d;
+$border-color: #e0e0e0;
+
+// Tipografía (varias alternativas modernas para tecnología)
+$font-family-inter: 'Inter', 'Roboto', 'Segoe UI', Arial, sans-serif;
+$font-family-roboto: 'Roboto', 'Inter', 'Segoe UI', Arial, sans-serif;
+$font-family-segoe: 'Segoe UI', 'Inter', 'Roboto', Arial, sans-serif;
+$font-family-mono: 'Fira Mono', 'Menlo', 'Monaco', 'Consolas', monospace;
+$font-family-base: $font-family-inter;
+$font-size-base: 16px;
+$font-size-lg: 1.25rem;
+$font-size-sm: 0.875rem;
+$font-weight-normal: 400;
+$font-weight-bold: 700;
+$line-height-base: 1.5;
+
+// Espaciados
+$spacer: 1rem;
+$spacer-xs: 0.25rem;
+$spacer-sm: 0.5rem;
+$spacer-md: 1.5rem;
+$spacer-lg: 3rem;
+
+// Bordes
+$border-radius: 0.25rem;
+$border-radius-lg: 0.5rem;
+$border-radius-pill: 50rem;
+
+// Sombras
+$box-shadow-sm: 0 1px 2px rgba(0,0,0,0.05);
+$box-shadow: 0 2px 8px rgba(0,0,0,0.10);
+$box-shadow-lg: 0 4px 24px rgba(0,0,0,0.15);
+
+// Transiciones
+$transition-base: all 0.2s ease-in-out;
+
+// Z-index
+$zindex-dropdown: 1000;
+$zindex-sticky: 1020;
+$zindex-fixed: 1030;
+$zindex-modal-backdrop: 1040;
+$zindex-modal: 1050;
+$zindex-popover: 1060;
+$zindex-tooltip: 1070;
+
+// Breakpoints
+$breakpoint-xs: 0;
+$breakpoint-sm: 576px;
+$breakpoint-md: 768px;
+$breakpoint-lg: 992px;
+$breakpoint-xl: 1200px;
+
+// Otros
+$container-max-width: 1200px;
+$navbar-height: 64px;
+$footer-height: 56px;
+$input-padding-y: 0.5rem;
+$input-padding-x: 1rem;
+$input-border-radius: $border-radius;
+$button-padding-y: 0.5rem;
+$button-padding-x: 1.5rem;
+$button-border-radius: $border-radius;

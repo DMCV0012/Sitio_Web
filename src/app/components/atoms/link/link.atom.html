@@ -1,0 +1,13 @@
+<a *ngIf="routerLink; else normalLink"
+   [routerLink]="routerLink"
+   routerLinkActive="active"
+   [target]="target"
+   [rel]="rel"
+   class="link-atom">
+  {{ text }}
+</a>
+<ng-template #normalLink>
+  <a [href]="href" [target]="target" [rel]="rel" class="link-atom">
+    {{ text }}
+  </a>
+</ng-template>

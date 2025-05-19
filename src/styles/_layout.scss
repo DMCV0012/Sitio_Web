@@ -1,0 +1,28 @@
+// Variables y utilidades globales para márgenes laterales estándar
+
+// Margen lateral estándar para páginas y elementos principales
+$page-horizontal-margin: 2rem;
+$page-horizontal-margin-sm: 1rem;
+$page-horizontal-margin-lg: 4rem;
+
+// Mixin para aplicar márgenes laterales estándar
+@mixin page-horizontal-margins {
+  margin-left: $page-horizontal-margin;
+  margin-right: $page-horizontal-margin;
+}
+
+// Clases utilitarias para aplicar márgenes laterales
+.mh-standard {
+  margin-left: $page-horizontal-margin;
+  margin-right: $page-horizontal-margin;
+}
+
+.mh-standard-sm {
+  margin-left: $page-horizontal-margin-sm;
+  margin-right: $page-horizontal-margin-sm;
+}
+
+.mh-standard-lg {
+  margin-left: $page-horizontal-margin-lg;
+  margin-right: $page-horizontal-margin-lg;
+}

@@ -1,0 +1,44 @@
+@import '../../../../styles/_layout.scss';
+@import '../../../../styles/_variables.scss';
+
+.custom-navbar {
+  background-color: $dark-color !important;
+  font-family: $font-family-base;
+  padding-left: $page-horizontal-margin;
+  padding-right: $page-horizontal-margin;
+  min-height: $navbar-height;
+
+  .navbar-brand {
+    font-weight: $font-weight-bold;
+    color: $primary-color;
+    font-size: 1.3rem;
+
+    .brand-text {
+      color: $primary-color;
+      font-family: $font-family-base;
+    }
+  }
+
+  .link-atom {
+    color: $text-color !important;
+    font-family: $font-family-base;
+    margin-left: $spacer;
+    margin-right: $spacer;
+    transition: $transition-base;
+    display: block;
+    padding: $spacer-sm 0;
+
+    &.active,
+    &:hover {
+      color: $primary-color !important;
+      text-decoration: underline;
+    }
+  }
+}
+
+@media (max-width: $breakpoint-md) {
+  .custom-navbar {
+    padding-left: $page-horizontal-margin-sm;
+    padding-right: $page-horizontal-margin-sm;
+  }
+}
